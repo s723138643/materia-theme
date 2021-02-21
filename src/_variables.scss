@@ -4,10 +4,10 @@ $asset-suffix: if($variant == 'dark', '-dark', '');
 // Sizes
 //
 
-$container-padding: if($compact == 'false', 6px, 4px);
+$container-padding: if($compact == 'false', 6px, 2px);
 
-$small-size: if($compact == 'false', 24px, 24px);
-$medium-size: if($compact == 'false', 36px, 32px);
+$small-size: if($compact == 'false', 24px, 22px);
+$medium-size: if($compact == 'false', 36px, 30px);
 $large-size: if($compact == 'false', 48px, 40px);
 
 $bar-size: 4px;
@@ -18,6 +18,7 @@ $menuitem-size: 28px;
 //
 
 $corner-radius: 4px;
+$headerbar-radius: 0;
 $circular-radius: 9999px;
 
 //

@@ -1375,7 +1375,7 @@ searchbar > revealer > box {
 
 .titlebar {
   transition: background-color $duration $ease-out, color $duration $ease-out;
-  border-radius: $corner-radius $corner-radius 0 0;
+  border-radius: $headerbar-radius $headerbar-radius 0 0;
   box-shadow: $shadow-z1, inset 0 1px highlight($titlebar);
   background-color: $titlebar;
   color: $on-titlebar;
@@ -1652,7 +1652,7 @@ searchbar > revealer > box {
 
 headerbar {
   // The sizing factor needs to be defined in the headerbar node for the case of split headerbars
-  min-height: $large-size;
+  min-height: $medium-size;
   padding: 0 $container-padding;
 
   // add vertical margins to common widget on the headerbar to avoid them spanning the whole height
@@ -1664,14 +1664,14 @@ headerbar {
   }
 
   separator.titlebutton {
-    margin-top: $large-size / 4;
-    margin-bottom: $large-size / 4;
+    margin-top: $medium-size / 4;
+    margin-bottom: $medium-size / 4;
     background-color: divider($on-titlebar);
   }
 
   switch {
-    margin-top: ($large-size - 24px) / 2;
-    margin-bottom: ($large-size - 24px) / 2;
+    margin-top: ($medium-size - 24px) / 2;
+    margin-bottom: ($medium-size - 24px) / 2;
   }
 
   // reset button margins of the spinbutton
